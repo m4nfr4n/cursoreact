@@ -6,7 +6,7 @@ import { Contador } from './contador'
 function Saluda(props) {
     return (
         <React.Fragment>
-            <h1>Hola 1 {props.name && props.name.toUpperCase()}</h1>
+            <h1>Hola 2{props.name && props.name.toUpperCase()}</h1>
             {props.children}
         </React.Fragment>
     );
